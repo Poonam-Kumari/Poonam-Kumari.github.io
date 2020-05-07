@@ -1,0 +1,202 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252" />
+<met<meta name="author" content="Poonam Kumari" />
+<meta name="description" content="Personal webpage of Poonam Kumari" />
+<meta name="keywords" content="student,UB,website,graduate,Poonam Kumari" />
+
+<title>Poonam Kumari personal website</title>
+
+<link rel="stylesheet" type="text/css" href="./style.css" />
+<!--[if IE]>
+<link rel="stylesheet" type="text/css" href="./css/style-ie.css" />
+<![endif]-->
+</head>
+<body>
+
+
+    <!--  MAIN  NAVIGATION-->
+    <div id="main_navigation" class="main-menu ">
+        <ul>
+			<li><a href="" title="Blank" ></a></li>
+			<li><a href="" title="Blank" ></a></li>
+			<li><a href="" title="Blank" ></a></li>
+            <li><a href="./index.html" title="Home" >Home</a></li>
+            <li><a href="./pubs.html">Publications</a></li>
+            <li><a href="./research.html" class="thispage" >Research</a></li>
+        </ul>
+    </div>
+
+<div id="main_container">
+
+
+
+<div class="page_content">
+
+
+
+<div id="header_container">
+        <div id="headshot">
+           <img src="Poonam.jpg" align="middle" height="200px" width="200px"/>
+        </div>
+    
+         <div id="main_info_container">
+
+        <h1 style="width:250px;">Poonam Kumari</h1>
+
+        <div class="pages_post_descr">
+
+            <div class="pages_post_descr_main">
+
+
+            <p>PhD Candidate &nbsp; &nbsp; <a href="CV.pdf">Resume</a>  &nbsp; &nbsp; <a href="http://www.linkedin.com/in/pkumariub">Linkedin</a> 
+			&nbsp; &nbsp; <a href="https://github.com/Poonam-Kumari">GitHub</a> </p> 
+            <p>Online Data Interaction Lab <br />
+            University at Buffalo </p>
+            
+            
+              <p><strong>Contact</strong>:<br/>
+              12 Flickinger ct, Apt F, Amherst, NY, 14228&nbsp;<br />
+            poonamku at buffalo dot edu
+          </p>
+               
+    
+            
+    
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+
+<h1>Research</h1>
+
+    <p>My research focuses on visualizing uncertainity in incomplete databases to help users make an informed decision. This page describes my current research directions.</p>
+    
+    <p>
+    I am fortunate to work with exceptional collaborators
+    <a href="https://odin.cse.buffalo.edu/people/oliver_kennedy.html" target="_blank">Oliver Kennedy</a>, 
+    <a href="https://willspoth.github.io/" target="_blank">William Spoth</a>,
+    <a href="https://about.me/gourabmitra" target="_blank">Gourab Mitra</a>, and
+	Lisa Lu.
+
+
+
+<h2>Current Research</h2>
+
+
+<div class="archive_post">
+
+    <div class="archive_post_text">
+        <h4>Visualizing uncertainity in incomplete databases</h4>
+
+        <p>The process of going from a raw dataset to an analytical answer involves an extensive data preparation process where analysts identify
+			problems or unexpected structural features of the data. Some 'optimistic' data analytics tools (e.g., Pandas) automate aspects of this
+			process through simple heuristics optimized for the common case (e.g., ignore malformed source data). Ironically, this automation
+			often requires more from the user, as they must now manually inspect the source data for potential errors that might be obscured by
+			the system's heuristics. In this paper, we explore the design of an interface that carries the benefits of both optimistic systems (i.e.,
+			easy access to answers assuming common-case heuristics are valid) and pessimistic systems (i.e., greater trust knowing that values
+			shown to the user are error-free). We fit the resulting interface into a recently proposed data preparation and exploration system
+			called Vizier, which links documentation (e.g., of potential errors) to fragments of affected data. This additional information reduces
+			analyst's workload by focusing attention on assumptions relevant to analysis, but risks biasing any decision the user makes.  </p>
+			
+		<p> We explore how different visualization techniques affect perceived data quality, accuracy and decision confidence 
+		through IRB approved user studies and interviews with users/analysts.
+		</p>
+
+        <ul>
+
+        <hr>
+
+        <li><strong>Poonam Kumari</strong>. 
+            <a href="VLDB19.pdf">Make Informed Decisions:Understanding Query Results from Incomplete Databases.</a>
+                <em>Proceedings of the VLDB 2019 PhD Workshop</em>.
+        </li>
+		
+		<li><strong>Poonam Kumari</strong> and Oliver Kennedy. 
+            <a href="NEDB.pdf">The Good and Bad Data.</a>
+                <em>Proceedings of the VLDB Endowment 2017</em>.
+        </li>
+		
+		<li><strong>Poonam Kumari</strong>, Said Achmiz and Oliver Kennedy>. 
+            <a href="VLDB16.pdf">Communicating Data Quality in On-Demand Curation.</a>
+                <em>Proceedings of the 11th VLDB Workshop on Quality in Databases 2016</em>, VLDB 2016.
+        </li>
+
+        </ul>
+
+    </div>
+</div>
+
+
+
+<div class="archive_post">
+    
+        <div class="archive_post_text">
+    
+            <h4>Loki: Streamlining Integration and Enrichment</h4>
+    
+            <p>Data scientists frequently transform data from one form to another while cleaning, integrating, and enriching datasets.
+				Writing such transformations, or "mapping functions" is time-consuming and often involves significant code re-use.
+				Unfortunately, when every dataset is slightly different from the last, finding the right mapping functions to re-use can be
+				equally difficult. In this paper, we propose "Link Once and Keep It" (Loki), a system which consists of a repository of
+				datasets and mapping functions and relates new datasets to datasets it already knows about, helping a data scientist to
+				quickly locate and re-use mapping functions she developed for other datasets in the past. Loki represents a first step
+				towards building and re-using repositories of domain-specific data integration pipelines.
+                
+            </p>
+    
+            
+            <ul>    
+            
+                <li>William Spoth, <strong>Poonam Kumari</strong>, Oliver Kennedy and Fatemah Nargessian.
+                <a href="HILDA-Loki.pdf">Loki: Streamlining Integration and Enrichment.</a>
+                <em>HILDA: Workshop on Human-In-the-Loop Data Analytics</em>, 2020.
+                </li>
+
+            </ul>
+        </div>
+    </div>
+
+
+
+
+
+  </div>
+
+
+
+  <div class="blue_divider"></div>
+
+
+
+
+<!--div style="width:300px; text-align:right; margin-left:20px;">
+  <p>Original design: <a href="http://www.istoredesigns.com" target="_blank">MiniFolio</a></p>
+
+</div--!>
+
+
+
+</div><!--end of main_container-->
+
+<div style="height:1px;"></div>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-477540-7']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</body>
+</html>
